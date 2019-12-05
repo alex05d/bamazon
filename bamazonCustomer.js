@@ -92,7 +92,7 @@ function openStore() {
                                     }
                                 ]
                             );
-                            console.log("\nYou purchased " + answer.amount + res[i].product_name + " at the price of $ " + res[i].price);
+                            console.log("\nYou purchased " + answer.amount + " " + res[i].product_name + " at the price of $ " + res[i].price);
                             console.log("\nThank you for your purchase your total is $ " + total + "\n");
 
                             start();
